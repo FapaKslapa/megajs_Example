@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Esempio mega</title>
+    <link
+            href="https://fonts.googleapis.com/css?family=Lexend"
+            rel="stylesheet"
+    />
+    <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+    />
+    <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link
+            href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@900&display=swap"
+            rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link
+            rel="stylesheet"
+            type="text/css"
+            href="https://cdn.jsdelivr.net/gh/exacti/floating-labels@latest/floating-labels.min.css"
+            media="screen"
+    />
+    <link
+            rel="stylesheet"
+            href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+            integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+            crossorigin=""
+    />
+    <script
+            src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+            integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+            crossorigin=""
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <link rel="stylesheet" href="./style.css"/>
+</head>
+
+<body>
+<div class="container">
+    <h1>Carica e scarica file da Mega con link</h1>
+    <form id="upload-form" onsubmit="return false">
+        <div class="row">
+            <div class="col">
+                <input type="file" id="file-input" class="form-control"/>
+            </div>
+            <div class="col">
+                <button type="submit" class="btn btn-primary">Carica</button>
+            </div>
+        </div>
+    </form>
+    <form id="" onsubmit="return false">
+        <div class="row mt-5">
+            <div class="col">
+                <input type="text" id="linkScelto" class="form-control" placeholder="Cerca"/>
+            </div>
+            <div class="col">
+                <button id="downloadButton" type="button" class="btn btn-primary">Download</button>
+            </div>
+        </div>
+    </form>
+</div>
+<script src="./index.js"></script>
+</body>
+</html>
